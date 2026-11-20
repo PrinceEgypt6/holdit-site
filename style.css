@@ -1,0 +1,18 @@
+:root { --ink:#1C181F; --grey:#6E6E6E; --card:#F7F6FD; --coral:#FF5E62; --peach:#FF9F5A; --bg:#FFFFFF; }
+@media (prefers-color-scheme: dark) { :root { --ink:#F5F4F7; --grey:#A09DA6; --card:#1B1A1F; --bg:#0E0D10; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+header { background: linear-gradient(135deg, var(--coral), var(--peach)); color:#fff; padding: 48px 0 40px; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+header .wrap { display:flex; align-items:center; gap:16px; }
+header a { color:#fff; text-decoration:none; }
+.mark { width:52px; height:52px; flex:none; display:block; }
+h1 { font-size: 34px; font-weight: 600; margin: 0; letter-spacing:-0.3px; line-height:1.15; }
+header p { margin: 4px 0 0; opacity: .92; }
+main { padding: 32px 0 48px; }
+h2 { font-size: 22px; font-weight: 600; margin: 32px 0 8px; }
+.muted { color: var(--grey); }
+.card { background: var(--card); border-radius: 16px; padding: 4px 20px; margin: 16px 0; }
+nav { display:flex; gap:18px; flex-wrap:wrap; margin-top: 40px; font-size: 15px; }
+a { color: var(--coral); }
+footer { color: var(--grey); font-size: 13px; padding: 0 0 48px; }
