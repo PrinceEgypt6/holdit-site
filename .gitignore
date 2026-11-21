@@ -1,0 +1,9 @@
+# Signing keys, certificates and secrets: never in this public repo
+*.p8
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+AuthKey_*
+.env
+.env.*
